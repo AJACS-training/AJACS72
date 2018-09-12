@@ -17,8 +17,8 @@
 札幌医科大学医学部 教育研究棟Ｉ D302講義室
 （札幌市中央区南1条西17丁目）
 
--[アクセス](http://web.sapmed.ac.jp/jp/info/access.html)
--[キャンパスマップ](http://web.sapmed.ac.jp/jp/info/map.html)
+- [アクセス](http://web.sapmed.ac.jp/jp/info/access.html)
+- [キャンパスマップ](http://web.sapmed.ac.jp/jp/info/map.html)
 
 ### プログラム
 #### 11月9日(金)
