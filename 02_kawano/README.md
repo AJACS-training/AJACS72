@@ -41,16 +41,27 @@
 ----
 
 ## <a name="togotv">研究現場で頻繁に使われるDBやツールを知る</a>
-### [統合TV](http://togotv.dbcls.jp/)とは？
-- 生命科学分野の有用なデータベースやツールの使い方を動画で紹介するウェブサイト http://togotv.dbcls.jp/
+### [統合TV](https://togotv.dbcls.jp/)とは？
+- 生命科学分野の有用なデータベースやツールの使い方を動画で紹介するウェブサイト https://togotv.dbcls.jp/
 
 ![figs/AJACS72_02_kawano_001.png](figs/AJACS72_02_kawano_001.png)
 
-- **本講習のすべての課題** に対応するチュートリアル動画が統合TVがあります
-	- ウェブサイトへのアクセスから結果の見方まで、操作の一挙手一投足がわかります。
-	- 講義・講習などの参考資料や後輩指導の教材として利用できます。
-    - 本講習中、本家サイトが繋がらない時は、統合TVのYouTube版を見ればおおよその内容がわかるようになっています。
-    - その他、今回の講習に関連する内容の多くは、[「ゲノム、核酸配列・構造解析」のカテゴリ](http://togotv.dbcls.jp/genome.html)にあります。
+- 本講習の課題に対応するチュートリアル動画が統合TVにあります
+	- ウェブサイトへのアクセスから結果の見方まで、操作の一挙手一投足がわかります
+	- 講義・講習などの参考資料や後輩指導の教材として利用できます
+    - その他、今回の講習に関連する内容の多くは、[「ゲノム、核酸配列・構造解析」のカテゴリ](https://togotv.dbcls.jp/genome.html)にあります。
  - **過去の講習会の内容はそのほとんどが統合TVに収録**されており、いつでもどこでも**繰り返し復習できる**ようになっています。
- 	- お探しの動画が見つからない or 統合TV未掲載の場合は、[統合TV番組リクエストフォーム](http://togotv.dbcls.jp/ja/contact.html)へどうぞ!
-    - [統合TVを作ってくれる方、募集中!!](https://twitter.com/bonohu/status/747954940157399040)
+ 	- お探しのDB・ツールが統合TV未掲載の場合には、[統合TV番組リクエストフォーム](https://togotv.dbcls.jp/ja/contact.html)へどうぞ!
+
+----
+
+## <a name="seq">DNA シーケンス技術</a>
+- サンガー法 v.s. 次世代シーケンス（NGS）
+	- https://www.nature.com/articles/nbt1486/figures/1
+- 次世代シーケンサー
+
+![figs/AJACS72_02_kawano_003.jpg](figs/AJACS72_02_kawano_003.jpg)
+
+	- https://flxlexblog.wordpress.com/2016/07/08/developments-in-high-throughput-sequencing-july-2016-edition/
+
+
