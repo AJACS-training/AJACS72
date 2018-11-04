@@ -240,8 +240,9 @@
 
 #### 【参考】[Beacon Network](http://beacon-network.org/)
 - Beacon Network は世界中の Beacon サーバーを横断的に検索するシステムです
-	- 現在 38 機関、66 サーバが検索対象
 ![figs/AJACS72_02_kawano_007.png](figs/AJACS72_02_kawano_007.png)
+
+- 現在 38 機関、66 サーバが検索対象
 ![figs/AJACS72_02_kawano_008.png](figs/AJACS72_02_kawano_008.png)
 
 ---
