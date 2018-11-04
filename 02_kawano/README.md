@@ -223,13 +223,28 @@
 
 ## <a name="humtool">ヒトに関する情報を検索するツール</a>
 
-### NBDC Beacon
+### [NBDC Beacon]( https://humandbs.biosciencedbc.jp/beacon/api)
 - URL: https://humandbs.biosciencedbc.jp/beacon/api
-
+- Beaconとは興味のある変異がデータセット中にあるかどうかを知るためのサービスです
+	- 例：1番染色体の12345番目のTがAであるデータセットはDB中にあるか？
+- NBDC ヒトデータベースのオープンデータを使って試験公開しています
+- 将来的には制限アクセスデータに対して検索できるようにする予定？です
 
 #### 【実習】NBDC Beacon を使ってみる
+1. NBDC ヒトデータベースでググって、トップページを開く
+2. Example にあるリンクをクリックする
+	1. GRCh37で12番染色体の112241766番目の塩基が ‘A’ のデータがデータセット中にあるか？
+![figs/AJACS72_02_kawano_002.png](figs/AJACS72_02_kawano_002.png)
+3. hum0013, hum0015, hum0029 には変異を含むデータが存在し、hum0014 には存在しないことがわかる
+![figs/AJACS72_02_kawano_006.png](figs/AJACS72_02_kawano_006.png)
 
-###[ PubCaseFinder](https://pubcasefinder.dbcls.jp/)
+#### 【参考】[Beacon Network](http://beacon-network.org/)
+- Beacon Network は世界中の Beacon サーバーを横断的に検索するシステムです
+	- 現在 38 機関、66 サーバが検索対象
+![figs/AJACS72_02_kawano_007.png](figs/AJACS72_02_kawano_007.png)
+![figs/AJACS72_02_kawano_008.png](figs/AJACS72_02_kawano_008.png)
+
+### [PubCaseFinder](https://pubcasefinder.dbcls.jp/)
 - URL: https://pubcasefinder.dbcls.jp/
 - 希少疾患・症例を検索できる希少疾患診断支援システム
 - 患者の症状をキーワードとして、疾患名および症例報告を関連性の高い順にランキング提示する
@@ -243,7 +258,7 @@
 - ライフサイエンス新着論文レビュー: [PubCaseFinder：症例報告を活用した希少疾患および遺伝性疾患の診断を支援するウェブサービス](http://first.lifesciencedb.jp/from_dbcls/e0003)
 
 #### 【実習】PubCaseFinder を使ってみる
-1. PubCaseFinder でググって、トップページを開く
+1. [PubCaseFinder](https://pubcasefinder.dbcls.jp/) でググって、トップページを開く
 2. 入力ボックスの下にある例をクリックする
 	1. 英語でも日本語でも入力できます
 	2. 一部の文字を入力すると候補が出るのでそこから選択できます
