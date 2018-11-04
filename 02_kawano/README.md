@@ -204,6 +204,9 @@
 
 ## <a name="humdb">ヒト（ゲノム）データベース</a>
 ### Global Alliance for Genomics and Health (GA4GH)
+- GA4GH: Global Alliance for Genomics and Health
+- ヒトのゲノムデータ・医療情報を国際的に共有するためのルール・標準を作成
+![figs/AJACS72_02_kawano_002.png](https://www.ga4gh.org/wp-content/uploads/GA4GH-how-we-work-diagram.png)
 
 ### 制限公開データベース
 - URL (dbGaP): 
