@@ -198,7 +198,19 @@
 7. 転写因子結合サイトの情報が追加される。[![https://gyazo.com/703be239476dfeae1985eb0348048bc2](https://i.gyazo.com/703be239476dfeae1985eb0348048bc2.png)](https://gyazo.com/703be239476dfeae1985eb0348048bc2)
 8. いろいろ変更して表示してみましょう。わからなくなったら、図の下に並んでいるボタンの"default tracks"を押すと最初の状態に戻せます。
 
-### DBTSS/DBKERO
+### [DBTSS](https://dbtss.hgc.jp/)/[DBKERO](http://kero.hgc.jp/)
+- DataBase of Transcriptional Start Site/DataBase of Kashiwa Encyclopedia for human genome mutation in Regulatory region and their Omics contexts
+	- DBTSS URL: https://dbtss.hgc.jp/
+	- DBKERO URL: http://kero.hgc.jp/
+- ヒト細胞の各種オミクスデータを集積したデータベース
+	- 全ゲノム（WGS）
+	- トランスクリプトーム（RNA-seq）
+	- エピゲノム（BS-seq, ChIP-seq）
+	- 転写開始地点（TSS-seq）
+	- シングルセルデータ
+	- ロングリードデータ
+
+![figs/AJACS72_02_kawano_009.png](figs/AJACS72_02_kawano_009.png)
 
 ----
 
@@ -206,6 +218,7 @@
 ### Global Alliance for Genomics and Health (GA4GH)
 - GA4GH: Global Alliance for Genomics and Health
 - ヒトのゲノムデータ・医療情報を国際的に共有するためのルール・標準を作成
+
 ![https://www.ga4gh.org/wp-content/uploads/GA4GH-how-we-work-diagram.png](https://www.ga4gh.org/wp-content/uploads/GA4GH-how-we-work-diagram.png)
 
 - [Work Streams](https://www.ga4gh.org/how-we-work/workstreams/)
@@ -220,6 +233,8 @@
 	- Clinical Genome Resource ([ClinGen](https://www.clinicalgenome.org/))
 	- (AMEB Umbrella Project)
 	- ...
+
+---
 
 ### 制限公開データベース
 - URL (dbGaP): 
