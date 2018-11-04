@@ -206,7 +206,20 @@
 ### Global Alliance for Genomics and Health (GA4GH)
 - GA4GH: Global Alliance for Genomics and Health
 - ヒトのゲノムデータ・医療情報を国際的に共有するためのルール・標準を作成
-![figs/AJACS72_02_kawano_002.png](https://www.ga4gh.org/wp-content/uploads/GA4GH-how-we-work-diagram.png)
+![https://www.ga4gh.org/wp-content/uploads/GA4GH-how-we-work-diagram.png](https://www.ga4gh.org/wp-content/uploads/GA4GH-how-we-work-diagram.png)
+
+- [Work Streams](https://www.ga4gh.org/how-we-work/workstreams/)
+	- Data Security
+	- Regulatory & Ethics
+	- Cloud
+	- Data Use & Researcher Identities (DURI)
+	- ...
+- [Driver Project](https://www.ga4gh.org/how-we-work/driver-projects/)
+	- [MatchMaker Exchange](http://www.matchmakerexchange.org/)
+	- [ELIXIR Beacon](https://www.elixir-europe.org/about/implementation-studies/beacons)
+	- Clinical Genome Resource ([ClinGen](https://www.clinicalgenome.org/))
+	- (AMEB Umbrella Project)
+	- ...
 
 ### 制限公開データベース
 - URL (dbGaP): 
