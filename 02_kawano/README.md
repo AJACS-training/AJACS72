@@ -265,15 +265,20 @@
 1. NBDC ヒトデータベースでググって、トップページを開く
 2. Example にあるリンクをクリックする
 	1. GRCh37で12番染色体の112241766番目の塩基が ‘A’ のデータがデータセット中にあるか？
+
 ![figs/AJACS72_02_kawano_002.png](figs/AJACS72_02_kawano_002.png)
+
 3. hum0013, hum0015, hum0029 には変異を含むデータが存在し、hum0014 には存在しないことがわかる
+
 ![figs/AJACS72_02_kawano_006.png](figs/AJACS72_02_kawano_006.png)
 
 #### 【参考】[Beacon Network](http://beacon-network.org/)
 - Beacon Network は世界中の Beacon サーバーを横断的に検索するシステムです
+
 ![figs/AJACS72_02_kawano_007.png](figs/AJACS72_02_kawano_007.png)
 
 - 現在 38 機関、66 サーバが検索対象
+
 ![figs/AJACS72_02_kawano_008.png](figs/AJACS72_02_kawano_008.png)
 
 ---
@@ -297,9 +302,12 @@
 	1. 英語でも日本語でも入力できます
 	2. 一部の文字を入力すると候補が出るのでそこから選択できます
 	3. 入力した症状をクリックすると、症状の詳細な説明、上位概念・下位概念の症状が表示されるので、より適当な症状を選択することができます
+
 ![figs/AJACS72_02_kawano_005.png](figs/AJACS72_02_kawano_005.png)
+
 3. 「疾患を検索」をクリックして検索します
 	1. 関連度順に疾患名がリストされます
 	2. 原因遺伝子の候補がある場合さらに絞り込むことができます
 	3. 疾患に関連する画像（Google検索）や症例報告を見ることができます
+
 ![figs/AJACS72_02_kawano_004.png](figs/AJACS72_02_kawano_004.png)
