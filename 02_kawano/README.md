@@ -244,6 +244,8 @@
 ![figs/AJACS72_02_kawano_007.png](figs/AJACS72_02_kawano_007.png)
 ![figs/AJACS72_02_kawano_008.png](figs/AJACS72_02_kawano_008.png)
 
+---
+
 ### [PubCaseFinder](https://pubcasefinder.dbcls.jp/)
 - URL: https://pubcasefinder.dbcls.jp/
 - 希少疾患・症例を検索できる希少疾患診断支援システム
