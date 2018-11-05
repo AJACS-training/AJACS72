@@ -171,7 +171,26 @@
   - [生物種ごと(Browse by Organism)](https://www.ncbi.nlm.nih.gov/genome/browse#!/overview/)
 - [PlantGDB](http://www.plantgdb.org)
   - [Plant Genome Database Japan(PGDB)](http://pgdbj.jp/)
-- 等々
+- [MicrobeDB.jp](http://microbedb.jp/MDB/)
+
+#### コミュニティによるゲノムデータベース
+
+- Mouse Genome Informatics (MGI) - マウス
+	- http://www.informatics.jax.org/
+- Rat Genome Database (RGD) - ラット
+	- https://rgd.mcw.edu/
+- WormBase - 線虫
+	- https://www.wormbase.org/
+- FlyBase - ショウジョウバエ
+	- http://flybase.org/
+- The Arabidopsis Information Resource (TAIR) - シロイヌナズナ
+	- https://www.arabidopsis.org/
+- Saccharomyces Genome Database (SGD) - 酵母
+	- https://www.yeastgenome.org/
+- CyanoBase - シアノバクテリア（光合成細菌）
+	- http://genome.microbedb.jp/cyanobase/
+
+---
 
 ### ゲノムブラウザとは？
 
@@ -213,6 +232,8 @@
 [![https://gyazo.com/703be239476dfeae1985eb0348048bc2](https://i.gyazo.com/703be239476dfeae1985eb0348048bc2.png)](https://gyazo.com/703be239476dfeae1985eb0348048bc2)
 
 8. いろいろ変更して表示してみましょう。わからなくなったら、図の下に並んでいるボタンの「default tracks」を押すと最初の状態に戻せます。
+
+---
 
 ### [DBTSS](https://dbtss.hgc.jp/)/[DBKERO](http://kero.hgc.jp/)
 - DataBase of Transcriptional Start Site/DataBase of Kashiwa Encyclopedia for human genome mutation in Regulatory region and their Omics contexts
