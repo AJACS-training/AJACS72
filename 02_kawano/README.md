@@ -187,16 +187,32 @@
 
 
 #### 【実習】UCSC ゲノムブラウザを使ってみる
-1. **"UCSC Genome Browser"** でググって、そのトップページを開く。
-2. トップページにはツール名がリストされている。一番上にある **"Genome Browser"** をクリックする。
-[![https://gyazo.com/df2e2e72be244cf4060bba364fc542e3](https://i.gyazo.com/df2e2e72be244cf4060bba364fc542e3.jpg)](https://gyazo.com/df2e2e72be244cf4060bba364fc542e3)
-3. 最寄りのミラーサイトに接続するか訊いてくるので、指示に従う。
+1. 「[UCSC Genome Browser](https://genome.ucsc.edu/)」でググって、トップページを開く。
+2. トップページにはツール名がリストされている。一番上にある「Genome Browser」をクリックする。
+
+![figs/AJACS72_02_kawano_010.png](figs/AJACS72_02_kawano_010.png)
+
+3. 最寄りのミラーサイトに接続する
+
 [![https://gyazo.com/0a10cb8a25d2a3919506b7ab6fb5335f](https://i.gyazo.com/0a10cb8a25d2a3919506b7ab6fb5335f.png)](https://gyazo.com/0a10cb8a25d2a3919506b7ab6fb5335f)
-4. Genome Browserのページが開くので、生物種(**Human**)とアッセンブリ(**Feb.2009/(GRC37/hg19)**)を選んで、検索語を入力する。[![https://gyazo.com/05ab6f4871c60485d4c54828a7f5f972](https://i.gyazo.com/05ab6f4871c60485d4c54828a7f5f972.png)](https://gyazo.com/05ab6f4871c60485d4c54828a7f5f972)
-5. FAM32A遺伝子のゲノム領域が表示される。[![https://gyazo.com/2032119adde3af87b91266dc6197e0a5](https://i.gyazo.com/2032119adde3af87b91266dc6197e0a5.png)](https://gyazo.com/2032119adde3af87b91266dc6197e0a5)
-6. "Regulation"の"ENC TF Binding..."を"hide"から"show"に変更して、"refresh"ボタンを押す。[![https://gyazo.com/ef4f449cc185c0cd917c978ed356ff93](https://i.gyazo.com/ef4f449cc185c0cd917c978ed356ff93.png)](https://gyazo.com/ef4f449cc185c0cd917c978ed356ff93)
-7. 転写因子結合サイトの情報が追加される。[![https://gyazo.com/703be239476dfeae1985eb0348048bc2](https://i.gyazo.com/703be239476dfeae1985eb0348048bc2.png)](https://gyazo.com/703be239476dfeae1985eb0348048bc2)
-8. いろいろ変更して表示してみましょう。わからなくなったら、図の下に並んでいるボタンの"default tracks"を押すと最初の状態に戻せます。
+
+4. Genome Browserのページが開くので、生物種「Human」とアッセンブリ「Feb.2009/(GRC37/hg19)」を選んで、検索語（ここでは「FAM32A」）を入力する
+
+[![https://gyazo.com/05ab6f4871c60485d4c54828a7f5f972](https://i.gyazo.com/05ab6f4871c60485d4c54828a7f5f972.png)](https://gyazo.com/05ab6f4871c60485d4c54828a7f5f972)
+
+5. FAM32A遺伝子のゲノム領域が表示される
+
+[![https://gyazo.com/2032119adde3af87b91266dc6197e0a5](https://i.gyazo.com/2032119adde3af87b91266dc6197e0a5.png)](https://gyazo.com/2032119adde3af87b91266dc6197e0a5)
+
+6. 「Regulation」の「ENC TF Binding...」を「hide」から「show」に変更して、「refresh」ボタンを押す。
+
+![figs/AJACS72_02_kawano_011.png](figs/AJACS72_02_kawano_011.png)
+
+7. 転写因子結合サイトの情報が追加される。
+
+[![https://gyazo.com/703be239476dfeae1985eb0348048bc2](https://i.gyazo.com/703be239476dfeae1985eb0348048bc2.png)](https://gyazo.com/703be239476dfeae1985eb0348048bc2)
+
+8. いろいろ変更して表示してみましょう。わからなくなったら、図の下に並んでいるボタンの「default tracks」を押すと最初の状態に戻せます。
 
 ### [DBTSS](https://dbtss.hgc.jp/)/[DBKERO](http://kero.hgc.jp/)
 - DataBase of Transcriptional Start Site/DataBase of Kashiwa Encyclopedia for human genome mutation in Regulatory region and their Omics contexts
@@ -242,8 +258,12 @@
 - URL (EGA): 
 - URL (JGA):
 
+---
+
 ### NBDCヒトデータベース
 - URL: https://humandbs.biosciencedbc.jp/
+
+---
 
 ### TogoVar
 - URL: https://togovar.biosciencedbc.jp/
@@ -263,7 +283,7 @@
 - 将来的には制限アクセスデータに対して検索できるようにする予定？です
 
 #### 【実習】NBDC Beacon を使ってみる
-1. NBDC ヒトデータベースでググって、トップページを開く
+1. 「[NBDC ヒトデータベース](https://humandbs.biosciencedbc.jp/)」 でググって、トップページを開く
 2. Example にあるリンクをクリックする
 	1. GRCh37で12番染色体の112241766番目の塩基が ‘A’ のデータがデータセット中にあるか？
 
@@ -298,7 +318,7 @@
 - ライフサイエンス新着論文レビュー: [PubCaseFinder：症例報告を活用した希少疾患および遺伝性疾患の診断を支援するウェブサービス](http://first.lifesciencedb.jp/from_dbcls/e0003)
 
 #### 【実習】PubCaseFinder を使ってみる
-1. [PubCaseFinder](https://pubcasefinder.dbcls.jp/) でググって、トップページを開く
+1. 「[PubCaseFinder](https://pubcasefinder.dbcls.jp/)」 でググって、トップページを開く
 2. 入力ボックスの下にある例をクリックする
 	1. 英語でも日本語でも入力できます
 	2. 一部の文字を入力すると候補が出るのでそこから選択できます
