@@ -286,8 +286,25 @@
 
 ---
 
-### TogoVar
+### [TogoVar](https://togovar.biosciencedbc.jp/)
 - URL: https://togovar.biosciencedbc.jp/
+- 日本人ゲノム多様性統合データベース
+	- NBDCヒトデータベースを基に個人特定されない加工データ（頻度情報）を提供
+	- 日本や海外で公開されている頻度情報、ゲノム多様性と疾患との関連情報を統合、ワンストップで検索可能に
+- 検索対象データベース
+	- NBDC ヒトデータベース（125人全エクソーム/183884人マイクロアレイ）
+	- [iJGVD](https://ijgvd.megabank.tohoku.ac.jp/): Integrated Japanese Genome Variation Database（3554人全ゲノム）
+	- [HGVD](http://www.hgvd.genome.med.kyoto-u.ac.jp/): Human Genetic Variation Database（1208人全ゲノム）
+		- 東北メディカルメガバンク
+	- [ExAC](http://exac.broadinstitute.org/): Exome Aggregation Consortium（60706人全エクソーム）
+		- 京都大学（長浜コホート）
+	- [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/)（バリアントの疾患関連知識ベース）
+		- Broad Institute
+	- [PubTator](https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/PubTator/) (NCBI)/[Colil](http://colil.dbcls.jp/browse/papers/) (DBCLS) （文献情報）
+- NBDC ヒトデータベースに登録された日本人のゲノムデータの一部から集計した大規模なバリアントの頻度情報のデータセットを公開
+	- 今後1026人分の全ゲノムデータを追加予定
+
+![figs/AJACS72_02_kawano_012.png](figs/AJACS72_02_kawano_012.png)
 
 #### 【実習】TogoVar を使ってみる
 - 【統合TV】：[TogoVar でヒトゲノムに存在するバリアントに関連する情報を調べる](https://togotv.dbcls.jp/20180825.html)
