@@ -269,25 +269,58 @@
 	- [MatchMaker Exchange](http://www.matchmakerexchange.org/)
 	- [ELIXIR Beacon](https://www.elixir-europe.org/about/implementation-studies/beacons)
 	- Clinical Genome Resource ([ClinGen](https://www.clinicalgenome.org/))
+	- [ENA](https://www.ebi.ac.uk/ena)/[EVA](https://www.ebi.ac.uk/eva/)/[EGA](https://www.ebi.ac.uk/ega/home)
 	- (AMEB Umbrella Project)
 	- ...
 
 ---
 
 ### 制限公開データベース
-- URL (dbGaP): 
-- URL (EGA): 
-- URL (JGA):
+- Controlled Access（制限公開）が必要なヒトに関するデータを収集・公開する
+	- URL (dbGaP: The database of Genotypes and Phenotypes): https://www.ncbi.nlm.nih.gov/gap
+	- URL (EGA: European Genome-phenome Archive): https://www.ebi.ac.uk/ega/home
+	- URL (JGA: Japanese Genotype-phenotype Archive): https://www.ddbj.nig.ac.jp/jga/index.html
+
+![figs/AJACS72_02_kawano_013.png](figs/AJACS72_02_kawano_013.png)
 
 ---
 
 ### NBDCヒトデータベース
 - URL: https://humandbs.biosciencedbc.jp/
+- データの種類
+
+![figs/AJACS72_02_kawano_015.png](figs/AJACS72_02_kawano_015.png)
+
+- JGA のデータ提供申請・審査
+	- データ提供の必要性
+		- 論文投稿時に公的 DB へのデータ登録とアクセッション番号の記載が必須
+		- 予算申請時に AMED [データマネージメントプラン](https://docs.google.com/viewer?url=https%3A%2F%2Fwww.amed.go.jp%2Fcontent%2F000004577.docx)提出の義務化
+	- データ提供に必要な手続き
+		- 研究計画書、同意文書（IC）および説明文書、倫理審査の承認通知書等
+		- 特にデータ提供に関する同意を取得しておくことが重要
+
+![figs/AJACS72_02_kawano_014.png](figs/AJACS72_02_kawano_014.png)
+
+- データ共有の仕組み
+
+![figs/AJACS72_02_kawano_016.png](figs/AJACS72_02_kawano_016.png)
+
+- 制限公開データの利用
+	- データ利用申請・審査が必要
+		- 研究計画、倫理審査の承認通知書等
+		- 年1回利用報告義務あり
+	- 利用者の所属組織以外のサーバでも、認定された機関外サーバであれば、ダウンロードして利用可能
+	
+![figs/AJACS72_02_kawano_017.png](figs/AJACS72_02_kawano_017.png)
 
 ---
 
 ### [TogoVar](https://togovar.biosciencedbc.jp/)
 - URL: https://togovar.biosciencedbc.jp/
+- NBDC ヒトデータベースと TogoVar の関係
+
+![figs/AJACS72_02_kawano_018.png](figs/AJACS72_02_kawano_018.png)
+
 - 日本人ゲノム多様性統合データベース
 	- NBDCヒトデータベースを基に個人特定されない加工データ（頻度情報）を提供
 	- 日本や海外で公開されている頻度情報、ゲノム多様性と疾患との関連情報を統合、ワンストップで検索可能に
