@@ -178,6 +178,11 @@
 
 ![figs/AJACS72_02_kawano_023.png](figs/AJACS72_02_kawano_023.png)
 
+#### 【参考】GGRNA による遺伝子の高速検索
+- GGRNA のトップページを開くと検索例のリンクがあるので、いろいろクリックしてみましょう
+
+![figs/AJACS72_02_kawano_024.png](figs/AJACS72_02_kawano_024.png)
+
 ---
 
 ### CRISPRdirect
