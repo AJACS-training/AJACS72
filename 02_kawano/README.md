@@ -156,8 +156,25 @@
 - 【統合TV】: 
 
 ### CRISPERdirect
+- URL: https://crispr.dbcls.jp/
+- ゲノム編集ツール CRISPR-Cas9 システムに使用するガイドRNA 設計ツール
+- PAM に隣接し、特異性の高い20塩基を選択
+	- PAM (Protospacer adjacent motif) に隣接する配列の選択
+	- オフターゲット配列検索（GGGenome を利用）
+- 多くの生物種に対応
+	- 650 種以上の生物種に対応（GGGenome と同じ）
+		- Help ページに現在対応している生物種の一覧があります
+	- CRISPRdirect/GGGenome 共、追加してほしい生物種（ゲノムが公開されているものに限る）がありましたら、[ここから](http://dbcls.rois.ac.jp/contact.html)お知らせください！
 
 #### 【実習】CRISPER 配列を設計する
+- 【統合TV】: [CRISPRdirectを使ってCRISPR/Cas法のガイドRNA配列を設計する](http://togotv.dbcls.jp/20140412.html)
+1. 「Accession 番号」 or 「塩基配列」、「PAM」、「生物種」を入力
+
+![figs/AJACS72_02_kawano_019.png](figs/AJACS72_02_kawano_019.png)
+
+2. CRISPERdirect 結果
+
+![figs/AJACS72_02_kawano_020.png](figs/AJACS72_02_kawano_020.png)
 
 ----
 
