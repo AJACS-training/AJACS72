@@ -148,7 +148,7 @@
 [![https://gyazo.com/25e505d625c7b585cd8befa67909158f](https://i.gyazo.com/25e505d625c7b585cd8befa67909158f.png)](https://gyazo.com/25e505d625c7b585cd8befa67909158f)
 6. 検索対象DBを'Human genomic + transcript'にするなど、パラメータを変えて検索してみよう。
 
-### GGGenome/GGRNA
+### [GGGenome](https://gggenome.dbcls.jp/ja/)/[GGRNA](https://ggrna.dbcls.jp/ja/)
 - 超絶高速ゲノム検索 GGGenome
 	- URL (GGGenome): https://gggenome.dbcls.jp/ja/
 	- 検索対象：ゲノム配列
@@ -157,14 +157,26 @@
 - 統合遺伝子検索 GGRNA
 	- URL (GGRNA): https://ggrna.dbcls.jp/ja/
 	- 検索対象：RefSeq の転写産物
-		- mRNA: NM_*, XM_*
-		- ncRNA: NR_*, XR_*
+		- mRNA: NM、XM からはじまるエントリ
+		- ncRNA: NR、XR からはじまるエントリ
 	- 入力：遺伝子名、キーワード、Accession 番号、塩基配列、アミノ酸配列、マイクロアレイのプローブ ID など
 
+#### 【実習】GGGenome による塩基配列の高速検索
+- 【統合TV】: [高速配列検索 GGGenome《ゲゲゲノム》の使い方](http://togotv.dbcls.jp/20131025.html)
+1. 「GGGenome」でググってトップページを開きます
+2. 「塩基配列」と「検索対象ゲノム」を指定して検索します（「検索例」に塩基配列があるのでコピペ or クリックします）
 
+![figs/AJACS72_02_kawano_021.png](figs/AJACS72_02_kawano_021.png)
 
-#### 【実習】配列の高速検索
-- 【統合TV】: 
+3. ＋方向に 15 配列、相補鎖に 8 配列ヒットしています
+	- 検索配列が短いとたくさんヒットします
+
+![figs/AJACS72_02_kawano_022.png](figs/AJACS72_02_kawano_022.png)
+
+4. 「許容するミスマッチ/ギャップの数」を指定してみます
+	- ヒット数が大幅に増えたのがわかります
+
+![figs/AJACS72_02_kawano_023.png](figs/AJACS72_02_kawano_023.png)
 
 ---
 
