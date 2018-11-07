@@ -148,14 +148,27 @@
 [![https://gyazo.com/25e505d625c7b585cd8befa67909158f](https://i.gyazo.com/25e505d625c7b585cd8befa67909158f.png)](https://gyazo.com/25e505d625c7b585cd8befa67909158f)
 6. 検索対象DBを'Human genomic + transcript'にするなど、パラメータを変えて検索してみよう。
 
-### GGRNA/GGGenome
-- URL (GGRNA): https://ggrna.dbcls.jp/ja/
-- URL
+### GGGenome/GGRNA
+- 超絶高速ゲノム検索 GGGenome
+	- URL (GGGenome): https://gggenome.dbcls.jp/ja/
+	- 検索対象：ゲノム配列
+	- 入力：塩基配列
+	- 特徴：ミスマッチ/ギャップがあっても検索可能
+- 統合遺伝子検索 GGRNA
+	- URL (GGRNA): https://ggrna.dbcls.jp/ja/
+	- 検索対象：RefSeq の転写産物
+		- mRNA: NM_*, XM_*
+		- ncRNA: NR_*, XR_*
+	- 入力：遺伝子名、キーワード、Accession 番号、塩基配列、アミノ酸配列、マイクロアレイのプローブ ID など
+
+
 
 #### 【実習】配列の高速検索
 - 【統合TV】: 
 
-### CRISPERdirect
+---
+
+### CRISPRdirect
 - URL: https://crispr.dbcls.jp/
 - ゲノム編集ツール CRISPR-Cas9 システムに使用するガイドRNA 設計ツール
 - PAM に隣接し、特異性の高い20塩基を選択
@@ -166,13 +179,13 @@
 		- Help ページに現在対応している生物種の一覧があります
 	- CRISPRdirect/GGGenome 共、追加してほしい生物種（ゲノムが公開されているものに限る）がありましたら、[ここから](http://dbcls.rois.ac.jp/contact.html)お知らせください！
 
-#### 【実習】CRISPER 配列を設計する
+#### 【実習】CRISPR 配列を設計する
 - 【統合TV】: [CRISPRdirectを使ってCRISPR/Cas法のガイドRNA配列を設計する](http://togotv.dbcls.jp/20140412.html)
 1. 「Accession 番号」 or 「塩基配列」、「PAM」、「生物種」を入力
 
 ![figs/AJACS72_02_kawano_019.png](figs/AJACS72_02_kawano_019.png)
 
-2. CRISPERdirect 結果
+2. CRISPRdirect 結果
 
 ![figs/AJACS72_02_kawano_020.png](figs/AJACS72_02_kawano_020.png)
 
