@@ -117,31 +117,36 @@
 |VCF/BCF|	.vcf |バリアントの記述|
 
 ### BLAST
-- URL (NCBI BLAST): 
+- URL (NCBI BLAST): https://blast.ncbi.nlm.nih.gov/Blast.cgi
 - BLASTとは
 	- Basic Local Alignment Search Tool
 	- 配列類似性検索のデファクトスタンダード
+	- DNA 塩基配列とタンパク質アミノ酸配列の検索が可能
 - BLASTの動作原理
-	- 質問配列(Query)
-	- 検索対象DB(Sbjct)
+	- 質問配列 (Query)
+	- 検索対象DB (Sbjct)
 
 [![https://gyazo.com/d832c82d9dc711abbfe0c7ef8951e72f](https://i.gyazo.com/d832c82d9dc711abbfe0c7ef8951e72f.png)](https://gyazo.com/d832c82d9dc711abbfe0c7ef8951e72f)
 
-- 質問配列とDBの組み合わせ→使うプログラム名が異なる
-	- blastnだけが核酸配列レベルでの比較
-	- 残り全てはアミノ酸配列レベルの比較
+- 質問配列と DB の組み合わせ→使うプログラム名が異なる
+	- blastn だけが核酸配列レベルでの比較
+	- 残りアミノ酸配列レベルの比較
 
 [![https://gyazo.com/1b65876d8b7842b6428a1706e1927b52](https://i.gyazo.com/1b65876d8b7842b6428a1706e1927b52.png)](https://gyazo.com/1b65876d8b7842b6428a1706e1927b52)
 
 
 #### 【実習】BLAST 検索
-- 【統合TV】: 
-1. **"NCBI BLAST"** でググって、そのトップページを開く 
-[![https://gyazo.com/3533a201cd0309b58da2a344b8a4d552](https://i.gyazo.com/3533a201cd0309b58da2a344b8a4d552.png)](https://gyazo.com/3533a201cd0309b58da2a344b8a4d552)
+- 【統合TV】: [NCBI BLASTの使い方 〜基本編〜 2017](http://togotv.dbcls.jp/20170321.html)
+1. 「NCBI BLAST」でググって、トップページを開く
 2. Nucleotide BLASTを選ぶ 
-[![https://gyazo.com/3f19305b9ec6f99922af952ee1f7c340](https://i.gyazo.com/3f19305b9ec6f99922af952ee1f7c340.png)](https://gyazo.com/3f19305b9ec6f99922af952ee1f7c340)
-3. FASTA sequence(query)をペーストする。興味ある配列がない場合は、[例1](http://getentry.ddbj.nig.ac.jp/getentry/na/LC170036/?format=fasta&filetype=html&trace=true&show_suppressed=false&limit=10)か[例2](http://getentry.ddbj.nig.ac.jp/getentry/na/AB281053/?format=fasta&filetype=html&trace=true&show_suppressed=false&limit=10)を使いましょう。
-4. 検索対象DBを選ぶ。まずは、デフォルトのまま(nr/nt)で。
+ 
+[![https://gyazo.com/3533a201cd0309b58da2a344b8a4d552](https://i.gyazo.com/3533a201cd0309b58da2a344b8a4d552.png)](https://gyazo.com/3533a201cd0309b58da2a344b8a4d552)
+
+3. FASTA sequence (query)をペーストする。[例1](http://getentry.ddbj.nig.ac.jp/getentry/na/LC170036/?format=fasta&filetype=html&trace=true&show_suppressed=false&limit=10)・[例2](http://getentry.ddbj.nig.ac.jp/getentry/na/AB281053/?format=fasta&filetype=html&trace=true&show_suppressed=false&limit=10)
+4. 検索対象DBとアルゴリズムを選ぶ。まずはデフォルトのまま（nr/nt、megablast）で
+
+![figs/AJACS72_02_kawano_025.png](figs/AJACS72_02_kawano_025.png)
+
 5. BLASTボタンを押すと、検索が始まり、以下のような結果が得られる。
 [![https://gyazo.com/3aa5210a48beb6d0efb1634b16e119f7](https://i.gyazo.com/3aa5210a48beb6d0efb1634b16e119f7.png)](https://gyazo.com/3aa5210a48beb6d0efb1634b16e119f7)
 [![https://gyazo.com/00a4946753a82898c6370643d152cd4e](https://i.gyazo.com/00a4946753a82898c6370643d152cd4e.png)](https://gyazo.com/00a4946753a82898c6370643d152cd4e)
@@ -162,7 +167,7 @@
 	- 入力：遺伝子名、キーワード、Accession 番号、塩基配列、アミノ酸配列、マイクロアレイのプローブ ID など
 
 #### 【実習】GGGenome による塩基配列の高速検索
-- 【統合TV】: [高速配列検索 GGGenome《ゲゲゲノム》の使い方](http://togotv.dbcls.jp/20131025.html)
+- 【統合TV】: [GGGenome《ゲゲゲノム》を使って高速塩基配列検索をする 2018](http://togotv.dbcls.jp/20181026.html)
 1. 「GGGenome」でググってトップページを開きます
 2. 「塩基配列」と「検索対象ゲノム」を指定して検索します（「検索例」に塩基配列があるのでコピペ or クリックします）
 
@@ -179,6 +184,7 @@
 ![figs/AJACS72_02_kawano_023.png](figs/AJACS72_02_kawano_023.png)
 
 #### 【参考】GGRNA による遺伝子の高速検索
+- 【統合TV】:[GGRNAで遺伝子をGoogleのように検索する](http://togotv.dbcls.jp/20120124.html)
 - GGRNA のトップページを開くと検索例のリンクがあるので、いろいろクリックしてみましょう
 
 ![figs/AJACS72_02_kawano_024.png](figs/AJACS72_02_kawano_024.png)
@@ -198,7 +204,8 @@
 
 #### 【実習】CRISPR 配列を設計する
 - 【統合TV】: [CRISPRdirectを使ってCRISPR/Cas法のガイドRNA配列を設計する](http://togotv.dbcls.jp/20140412.html)
-1. 「Accession 番号」 or 「塩基配列」、「PAM」、「生物種」を入力
+1. 「[CRISPRdirect](https://crispr.dbcls.jp/)」でググってトップページを開く
+2. 「Accession 番号」 or 「塩基配列」、「PAM」、「生物種」を入力
 
 ![figs/AJACS72_02_kawano_019.png](figs/AJACS72_02_kawano_019.png)
 
@@ -253,6 +260,7 @@
 
 
 #### 【実習】UCSC ゲノムブラウザを使ってみる
+- 【統合TV】: [UCSC Genome Browser を使って様々な組織、細胞における遺伝子発現データをゲノムブラウザで表示する](http://togotv.dbcls.jp/ja/20171116.html)
 1. 「[UCSC Genome Browser](https://genome.ucsc.edu/)」でググって、トップページを開く。
 2. トップページにはツール名がリストされている。一番上にある「Genome Browser」をクリックする。
 
