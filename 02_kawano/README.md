@@ -418,6 +418,7 @@
 	![figs/AJACS72_02_kawano_027.png](figs/AJACS72_02_kawano_027.png)
 - TogoVar の画面構成
 ![figs/AJACS72_02_kawano_030.png](figs/AJACS72_02_kawano_030.png)
+
 3. 左側にリストされている項目で検索結果の絞り込みができます
 	1. データセット、頻度、変異の種類、疾患の関連度など
 	2. まず「SNV」のみを絞り込んでみます
@@ -426,6 +427,12 @@
 	![figs/AJACS72_02_kawano_029.png](figs/AJACS72_02_kawano_029.png)
 4. ID 欄に表示されている tgv ID をクリックすると変異の詳細が表示されます
 	1. ここでは上から13番目にある「[tgv48209632](https://togovar.biosciencedbc.jp/variant/tgv48209632)」（全データセットで検出されている変異）をクリックしてみます
+	![figs/AJACS72_02_kawano_031.png](figs/AJACS72_02_kawano_031.png)
+5. 下にスコロールしていくと詳細情報が表示されます
+	1. 各データセットでの詳細な頻度情報（データがあれば Genotype 情報も）
+	![figs/AJACS72_02_kawano_032.png](figs/AJACS72_02_kawano_032.png)
+	2. 周辺の変異情報（ゲノムブラウザ）
+	![figs/AJACS72_02_kawano_033.png](figs/AJACS72_02_kawano_033.png)
 
 ----
 
