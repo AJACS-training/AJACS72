@@ -91,10 +91,21 @@
 - URL (ArrayExpress): 
 - URL (EGA): 
 
+---
+
 #### NGS データ解析について
-- NGS講習会
-- 【統合TV】: 
-- 参考図書
+- NGSのデータ解析はコマンドラインで実行するものが多く、習得に時間がかかります（3時間ではとても無理です！）
+- ここでは資料を提示するのにとどめます
+	- NGS ハンズオン講習会（資料、統合TVあり）
+		- [平成 29 年](https://biosciencedbc.jp/human/human-resources/workshop/h29)　[カリキュラム・講義資料・動画](https://biosciencedbc.jp/human/human-resources/workshop/h29#curriculum)
+		- [平成 28 年](https://biosciencedbc.jp/human/human-resources/workshop/h28)　[カリキュラム・講義資料・動画](https://biosciencedbc.jp/human/human-resources/workshop/h28-2)
+		- [平成 27 年](https://biosciencedbc.jp/human/human-resources/workshop/h27)　[カリキュラム・講義資料・動画](https://biosciencedbc.jp/human/human-resources/workshop/h27)
+		- [平成 26 年](https://biosciencedbc.jp/human/human-resources/workshop/h26)　[カリキュラム・講義資料・動画](https://biosciencedbc.jp/human/human-resources/workshop/h26)
+	- 次世代シークエンサー DRY 解析読本
+	![次世代シークエンサー DRY 解析読本](https://images-na.ssl-images-amazon.com/images/I/51w3DTHbYmL._SX385_BO1,204,203,200_.jpg)
+	- ライフサイエンス QA
+		- URL: http://qa.lifesciencedb.jp/
+		- バイオ分野の質問サイトです
 
 ----
 
@@ -115,6 +126,8 @@
 |GFF(GTF)|	.gff .gtf |ゲノムアノテーション|
 |BED|	.bed |ゲノムアノテーション|
 |VCF/BCF|	.vcf |バリアントの記述|
+
+---
 
 ### BLAST
 - URL (NCBI BLAST): https://blast.ncbi.nlm.nih.gov/Blast.cgi
