@@ -100,7 +100,9 @@
 
 ![insdc](https://www.ddbj.nig.ac.jp/images/center/insdc_shoukai.gif)
 
-#### DDBJ/ENA/GenBank
+---
+
+### DDBJ/ENA/GenBank
 - DNA 塩基配列およびそのアノテーション情報を登録するためのデータベース
 - 登録されたデータは日米欧で毎日交換
 - DDBJ から登録すると、日本語で対応してもらえます
@@ -109,29 +111,50 @@
 	- ENA - European Nucleotide Archive (EBI): https://www.ebi.ac.uk/ena
 	- GenBank (NCBI): https://www.ncbi.nlm.nih.gov/genbank/
 
-##### 【演習】DDBJ 検索
+#### 【演習】DDBJ 検索
 1. 「[DDBJ](https://www.ddbj.nig.ac.jp/index.html)」でググってトップページを開きます
 2. 「検索・解析」の「ARSA」を開きます
 	1. 「登録」からデータの登録が
 	2. 「ダウンロード」からデータベースのまるごとダウンロードが
 	3. 「スパコン」からスーパーコンピュータの利用申請（基本無料）ができます
-	![figs/AJACS72_02_kawano_037.png](figs/AJACS72_02_kawano_037.png)
+
+![figs/AJACS72_02_kawano_037.png](figs/AJACS72_02_kawano_037.png)
+
 3. キーワード（「ALDH1A1 human」）を入力して検索します
+
 ![figs/AJACS72_02_kawano_038.png](figs/AJACS72_02_kawano_038.png)
 
 4. ヒットした配列の Accession 番号をクリックします
 	1. ユーザによる登録ごとにエントリが作られるのでたくさんヒットします
-	![figs/AJACS72_02_kawano_039.png](figs/AJACS72_02_kawano_039.png)
+
+![figs/AJACS72_02_kawano_039.png](figs/AJACS72_02_kawano_039.png)
 
 - 検索結果（の一部）
 	- これが DDBJ フォーマットとよばれるものです
+
 ![figs/AJACS72_02_kawano_040.png](figs/AJACS72_02_kawano_040.png)
+
 ![figs/AJACS72_02_kawano_041.png](figs/AJACS72_02_kawano_041.png)
+
 ![figs/AJACS72_02_kawano_042.png](figs/AJACS72_02_kawano_042.png)
 
-##### 【演習】NCBI (RefSeq) 検索
+#### 【演習】NCBI (RefSeq) 検索
+1. 「NCBI」でググってトップページを開きます
+2. 先ほどとキーワード（「ALDH1A1 human」）を入力して検索します
 
-#### DRA/ENA/SRA
+![figs/AJACS72_02_kawano_043.png](figs/AJACS72_02_kawano_043.png)
+
+- 遺伝子配列自体はたくさん登録されていますが、それらをまとめて整理した RefSeq は 1 エントリのみヒットしています
+
+![figs/AJACS72_02_kawano_044.png](figs/AJACS72_02_kawano_044.png)
+
+- RefSeq は DDBJ/GenBank フォーマットで書かれていますが、これを基にした遺伝子のページが充実しています
+
+![figs/AJACS72_02_kawano_045.png](figs/AJACS72_02_kawano_045.png)
+
+---
+
+### DRA/ENA/SRA
 - 次世代シーケンサから得られた生データもしくはマッピングデータを登録するデータベース
 - データベース
 	- DRA - DDBJ Read Archive (DDBJ): https://www.ddbj.nig.ac.jp/dra/index.html
@@ -139,15 +162,15 @@
 	- SRA - Sequence Read Archive (NCBI): https://www.ncbi.nlm.nih.gov/sra
 		- （一時期 Short Read Archive と呼ばれていた）
 
-#####  SRA データモデル
+####  SRA データモデル
 
 ![figs/AJACS72_02_kawano_036.png](figs/AJACS72_02_kawano_036.png)
 
-##### 【演習】DRA 検索
+#### 【演習】DRA 検索
 - 【統合TV】：
 
 
-#### GEA/ArrayExpress/GEO
+### GEA/ArrayExpress/GEO
 - 遺伝子発現のデータを格納するためのデータベース
 - GEA が 2018 年 7 月から運用開始
 - GEA ↔ ArrayExpress 間ではデータ交換予定
@@ -159,7 +182,7 @@
 
 ---
 
-#### NGS データ解析について
+### NGS データ解析について
 - NGSのデータ解析はコマンドラインで実行するものが多く、習得に時間がかかります（3時間ではとても無理です！）
 - ここでは資料を提示するのにとどめます
 	- NGS ハンズオン講習会（資料、統合TVあり）
