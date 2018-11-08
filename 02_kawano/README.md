@@ -149,16 +149,13 @@
 
 5. BLASTボタンを押すと検索が始まり以下のような結果が得られる
 	1. 検索の概要＋Graphic Summary
-
-[![https://gyazo.com/3aa5210a48beb6d0efb1634b16e119f7](https://i.gyazo.com/3aa5210a48beb6d0efb1634b16e119f7.png)](https://gyazo.com/3aa5210a48beb6d0efb1634b16e119f7)
+	[![https://gyazo.com/3aa5210a48beb6d0efb1634b16e119f7](https://i.gyazo.com/3aa5210a48beb6d0efb1634b16e119f7.png)](https://gyazo.com/3aa5210a48beb6d0efb1634b16e119f7)
 
 	2. ヒットした配列の概要
-
-[![https://gyazo.com/00a4946753a82898c6370643d152cd4e](https://i.gyazo.com/00a4946753a82898c6370643d152cd4e.png)](https://gyazo.com/00a4946753a82898c6370643d152cd4e)
+	[![https://gyazo.com/00a4946753a82898c6370643d152cd4e](https://i.gyazo.com/00a4946753a82898c6370643d152cd4e.png)](https://gyazo.com/00a4946753a82898c6370643d152cd4e)
 
 	3. ヒットした配列のアラインメント
-
-[![https://gyazo.com/25e505d625c7b585cd8befa67909158f](https://i.gyazo.com/25e505d625c7b585cd8befa67909158f.png)](https://gyazo.com/25e505d625c7b585cd8befa67909158f)
+	[![https://gyazo.com/25e505d625c7b585cd8befa67909158f](https://i.gyazo.com/25e505d625c7b585cd8befa67909158f.png)](https://gyazo.com/25e505d625c7b585cd8befa67909158f)
 
 #### 【発展】Protein BLAST 、Local BLAST
 - Protein BLAST も試してみましょう
@@ -169,6 +166,8 @@
 - 大量に検索する場合、独自のデータベース対して検索する場合などは、自分の PC にインストールして使えます
 	- 統合TV：[Local BLASTの使い方〜導入・準備編(MacOSX版)〜2017](https://doi.org/10.7875/togotv.2017.031)
 	- 統合TV：[Local BLASTの使い方〜検索実行・オプション(MacOSX版)〜2017](https://doi.org/10.7875/togotv.2017.045)
+
+---
 
 ### [GGGenome](https://gggenome.dbcls.jp/ja/)/[GGRNA](https://ggrna.dbcls.jp/ja/)
 - 超絶高速ゲノム検索 GGGenome
@@ -413,6 +412,20 @@
 
 #### 【実習】TogoVar を使ってみる
 - 【統合TV】：[TogoVar でヒトゲノムに存在するバリアントに関連する情報を調べる](https://togotv.dbcls.jp/20180825.html)
+1. 「[TogoVar](https://togovar.biosciencedbc.jp/)」でググってトップページを開きます
+2. 遺伝子名、疾患名、rs 番号、ゲノム位置や範囲での検索が可能です
+	1. ここでは「Breast-ovarian cancer, familial 2」で検索してみます
+	![figs/AJACS72_02_kawano_027.png](figs/AJACS72_02_kawano_027.png)
+- TogoVar の画面構成
+![figs/AJACS72_02_kawano_030.png](figs/AJACS72_02_kawano_030.png)
+3. 左側にリストされている項目で検索結果の絞り込みができます
+	1. データセット、頻度、変異の種類、疾患の関連度など
+	2. まず「SNV」のみを絞り込んでみます
+	![figs/AJACS72_02_kawano_028.png](figs/AJACS72_02_kawano_028.png)
+	3. 次に JGA NGS データセットでのアリル頻度が 0.1 (10%) 以下の変異で絞り込んでみます
+	![figs/AJACS72_02_kawano_029.png](figs/AJACS72_02_kawano_029.png)
+4. ID 欄に表示されている tgv ID をクリックすると変異の詳細が表示されます
+	1. ここでは上から13番目にある「[tgv48209632](https://togovar.biosciencedbc.jp/variant/tgv48209632)」（全データセットで検出されている変異）をクリックしてみます
 
 ----
 
