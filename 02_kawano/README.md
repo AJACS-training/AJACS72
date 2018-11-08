@@ -147,11 +147,28 @@
 
 ![figs/AJACS72_02_kawano_025.png](figs/AJACS72_02_kawano_025.png)
 
-5. BLASTボタンを押すと、検索が始まり、以下のような結果が得られる。
+5. BLASTボタンを押すと検索が始まり以下のような結果が得られる
+	1. 検索の概要＋Graphic Summary
+
 [![https://gyazo.com/3aa5210a48beb6d0efb1634b16e119f7](https://i.gyazo.com/3aa5210a48beb6d0efb1634b16e119f7.png)](https://gyazo.com/3aa5210a48beb6d0efb1634b16e119f7)
+
+	2. ヒットした配列の概要
+
 [![https://gyazo.com/00a4946753a82898c6370643d152cd4e](https://i.gyazo.com/00a4946753a82898c6370643d152cd4e.png)](https://gyazo.com/00a4946753a82898c6370643d152cd4e)
+
+	3. ヒットした配列のアラインメント
+
 [![https://gyazo.com/25e505d625c7b585cd8befa67909158f](https://i.gyazo.com/25e505d625c7b585cd8befa67909158f.png)](https://gyazo.com/25e505d625c7b585cd8befa67909158f)
-6. 検索対象DBを'Human genomic + transcript'にするなど、パラメータを変えて検索してみよう。
+
+#### 【発展】Protein BLAST 、Local BLAST
+- Protein BLAST も試してみましょう
+	- [GTFII-I](https://www.uniprot.org/uniprot/P78347-2.fasta) のアミノ酸配列を UniProtKB/SwissProt データベースに対して検索した結果
+
+![figs/AJACS72_02_kawano_026.png](figs/AJACS72_02_kawano_026.png)
+
+- 大量に検索する場合、独自のデータベース対して検索する場合などは、自分の PC にインストールして使えます
+	- 統合TV：[Local BLASTの使い方〜導入・準備編(MacOSX版)〜2017](https://doi.org/10.7875/togotv.2017.031)
+	- 統合TV：[Local BLASTの使い方〜検索実行・オプション(MacOSX版)〜2017](https://doi.org/10.7875/togotv.2017.045)
 
 ### [GGGenome](https://gggenome.dbcls.jp/ja/)/[GGRNA](https://ggrna.dbcls.jp/ja/)
 - 超絶高速ゲノム検索 GGGenome
