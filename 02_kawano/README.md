@@ -66,30 +66,96 @@
 ----
 
 ## <a name="seqdb">塩基配列データベース</a>
+### 塩基配列データベースで使用されるファイルフォーマット
+| ファイルフォーマット | ファイル拡張子|用途など|
+|----|----|----|
+|FASTA	| .fa .fasta | 塩基配列、アミノ酸配列 |
+|FASTQ|	.fq .fastq | NGSからの塩基配列とそのquality |
+|DDBJ(Genbank)|	.dbj (.gbk) | メタデータを含んだ塩基配列やアミノ酸配列の記述 |
+|SRA|	.sra | FASTQを圧縮したファイル形式|
+|SAM/BAM|	.sam .bam |リファレンスゲノム配列へのアラインメント|
+|GFF(GTF)|	.gff .gtf |ゲノムアノテーション|
+|BED|	.bed |ゲノムアノテーション|
+|VCF/BCF|	.vcf |バリアントの記述|
+
+- 参考：[NGS ハンズオン講習会資料](https://biosciencedbc.jp/gadget/human/20160725_amelieff_20160803.pdf)
+
+---
+
+### データの種類とデータベース
+![figs/AJACS72_02_kawano_034.png](figs/AJACS72_02_kawano_034.png)
+
+### 一次データベースと二次データベース
+
+![figs/AJACS72_02_kawano_035.png](figs/AJACS72_02_kawano_035.png)
+
 ### INSDC
 - URL: http://www.insdc.org/
+- International Nucleotide Sequence Database Collaboration
+- 日米欧 3 極での塩基配列データベースについての協力体制
+- 参加機関
+	- 日本：DNA Data Bank Japan ([DDBJ](https://www.ddbj.nig.ac.jp/index.html))
+	- 米国：National Center for Biotechnology Information ([NCBI](https://www.ncbi.nlm.nih.gov/))
+	- 欧州：European Bioinformatics Institute ([EBI](https://www.ebi.ac.uk/))
 
-#### GenBank/ENA/DDBJ
-- URL (GenBank): https://www.ncbi.nlm.nih.gov/genbank/
-- URL (ENA): https://www.ebi.ac.uk/ena
-- URL (DDBJ): https://www.ddbj.nig.ac.jp/index.html
+![insdc](https://www.ddbj.nig.ac.jp/images/center/insdc_shoukai.gif)
+
+#### DDBJ/ENA/GenBank
+- DNA 塩基配列およびそのアノテーション情報を登録するためのデータベース
+- 登録されたデータは日米欧で毎日交換
+- DDBJ から登録すると、日本語で対応してもらえます
+- データベース
+	- DDBJ (DDBJ): https://www.ddbj.nig.ac.jp/index.html
+	- ENA - European Nucleotide Archive (EBI): https://www.ebi.ac.uk/ena
+	- GenBank (NCBI): https://www.ncbi.nlm.nih.gov/genbank/
 
 ##### 【演習】DDBJ 検索
+1. 「[DDBJ](https://www.ddbj.nig.ac.jp/index.html)」でググってトップページを開きます
+2. 「検索・解析」の「ARSA」を開きます
+	1. 「登録」からデータの登録が
+	2. 「ダウンロード」からデータベースのまるごとダウンロードが
+	3. 「スパコン」からスーパーコンピュータの利用申請（基本無料）ができます
+	![figs/AJACS72_02_kawano_037.png](figs/AJACS72_02_kawano_037.png)
+3. キーワード（「ALDH1A1 human」）を入力して検索します
+![figs/AJACS72_02_kawano_038.png](figs/AJACS72_02_kawano_038.png)
 
-#### SRA/ERA/DRA
-- URL (SRA): https://www.ncbi.nlm.nih.gov/sra
-- URL (ERA): 
-- URL (DRA): https://www.ddbj.nig.ac.jp/dra/index.html
+4. ヒットした配列の Accession 番号をクリックします
+	1. ユーザによる登録ごとにエントリが作られるのでたくさんヒットします
+	![figs/AJACS72_02_kawano_039.png](figs/AJACS72_02_kawano_039.png)
+
+- 検索結果（の一部）
+	- これが DDBJ フォーマットとよばれるものです
+![figs/AJACS72_02_kawano_040.png](figs/AJACS72_02_kawano_040.png)
+![figs/AJACS72_02_kawano_041.png](figs/AJACS72_02_kawano_041.png)
+![figs/AJACS72_02_kawano_042.png](figs/AJACS72_02_kawano_042.png)
+
+##### 【演習】NCBI (RefSeq) 検索
+
+#### DRA/ENA/SRA
+- 次世代シーケンサから得られた生データもしくはマッピングデータを登録するデータベース
+- データベース
+	- DRA - DDBJ Read Archive (DDBJ): https://www.ddbj.nig.ac.jp/dra/index.html
+	- ENA - European Nucleotide Archive (EBI): https://www.ebi.ac.uk/ena
+	- SRA - Sequence Read Archive (NCBI): https://www.ncbi.nlm.nih.gov/sra
+		- （一時期 Short Read Archive と呼ばれていた）
+
+#####  SRA データモデル
+
+![figs/AJACS72_02_kawano_036.png](figs/AJACS72_02_kawano_036.png)
 
 ##### 【演習】DRA 検索
 - 【統合TV】：
 
-#### BioProject/BioSample
 
-#### GEO/ArrayExpress/GEA
-- URL (GEO): 
-- URL (ArrayExpress): 
-- URL (EGA): 
+#### GEA/ArrayExpress/GEO
+- 遺伝子発現のデータを格納するためのデータベース
+- GEA が 2018 年 7 月から運用開始
+- GEA ↔ ArrayExpress 間ではデータ交換予定
+- ArrayExpress は GEO のデータを取り込んでいるが、GEO は ArrayExpress のデータを取り込んでいない
+- データベース
+	- GEA - Genomic Expression Archive (DDBJ): https://www.ddbj.nig.ac.jp/gea/index.html
+	- ArrayExpress (EBI): https://www.ebi.ac.uk/arrayexpress/
+	- GEO - Gene Expression Omnibus (NCBI): https://www.ncbi.nlm.nih.gov/geo/ 
 
 ---
 
@@ -112,28 +178,9 @@
 ----
 
 ## <a name="seqtool">配列検索ツール</a>
-### 配列解析入門
-
-配列解析の基本である配列アラインメントについて、BLASTを例にその検索アルゴリズムを解説する。
-
-- ファイルフォーマット
-
-| ファイルフォーマット | ファイル拡張子|用途など|
-|----|----|----|
-|FASTA	| .fa .fasta | 塩基配列、アミノ酸配列 |
-|FASTQ|	.fq .fastq | NGSからの塩基配列とそのquality |
-|DDBJ(Genbank)|	.dbj (.gbk) | メタデータを含んだ塩基配列やアミノ酸配列の記述 |
-|SRA|	.sra | FASTQを圧縮したファイル形式|
-|SAM/BAM|	.sam .bam |リファレンスゲノム配列へのアラインメント|
-|GFF(GTF)|	.gff .gtf |ゲノムアノテーション|
-|BED|	.bed |ゲノムアノテーション|
-|VCF/BCF|	.vcf |バリアントの記述|
-
----
-
 ### BLAST
 - URL (NCBI BLAST): https://blast.ncbi.nlm.nih.gov/Blast.cgi
-- BLASTとは
+- 配列解析の基本である配列アラインメントについて、BLASTを例にその検索アルゴリズムを解説する
 	- Basic Local Alignment Search Tool
 	- 配列類似性検索のデファクトスタンダード
 	- DNA 塩基配列とタンパク質アミノ酸配列の検索が可能
