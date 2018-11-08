@@ -102,7 +102,9 @@
 		- [平成 27 年](https://biosciencedbc.jp/human/human-resources/workshop/h27)　[カリキュラム・講義資料・動画](https://biosciencedbc.jp/human/human-resources/workshop/h27)
 		- [平成 26 年](https://biosciencedbc.jp/human/human-resources/workshop/h26)　[カリキュラム・講義資料・動画](https://biosciencedbc.jp/human/human-resources/workshop/h26)
 	- 次世代シークエンサー DRY 解析読本
-	![次世代シークエンサー DRY 解析読本](https://images-na.ssl-images-amazon.com/images/I/51w3DTHbYmL._SX385_BO1,204,203,200_.jpg)
+	
+	<img src="https://images-na.ssl-images-amazon.com/images/I/51w3DTHbYmL._SX385_BO1,204,203,200_.jpg" width="200px">
+	
 	- ライフサイエンス QA
 		- URL: http://qa.lifesciencedb.jp/
 		- バイオ分野の質問サイトです
