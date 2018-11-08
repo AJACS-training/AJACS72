@@ -130,7 +130,7 @@
 ![figs/AJACS72_02_kawano_039.png](figs/AJACS72_02_kawano_039.png)
 
 - 検索結果（の一部）
-	- これが DDBJ フォーマットとよばれるものです
+	- これが DDBJ/GenBank フォーマットとよばれるものです
 
 ![figs/AJACS72_02_kawano_040.png](figs/AJACS72_02_kawano_040.png)
 
@@ -167,8 +167,27 @@
 ![figs/AJACS72_02_kawano_036.png](figs/AJACS72_02_kawano_036.png)
 
 #### 【演習】DRA 検索
-- 【統合TV】：
+1. 「DDBJ [DRA](https://www.ddbj.nig.ac.jp/dra/index.html)」でググってトップページを開きます
+2. 「検索」で検索ページを開きます
+	1. 「ログイン・登録」からデータを登録できます
 
+![figs/AJACS72_02_kawano_046.png](figs/AJACS72_02_kawano_046.png)
+
+3. キーワード（「breast cancer」とか）を入力して検索します
+	1. データベースに登録されている統計情報が表示されています
+
+![figs/AJACS72_02_kawano_047.png](figs/AJACS72_02_kawano_047.png)
+
+4. 検索結果の Accession をクリックします
+
+![figs/AJACS72_02_kawano_048.png](figs/AJACS72_02_kawano_048.png)
+
+5. Experiment や、サンプル、Run へのリンクから詳細な情報にアクセスできます
+6. また、FASTQ 形式もしくは SRA 形式のファイルをダウンロードできます
+
+![figs/AJACS72_02_kawano_049.png](figs/AJACS72_02_kawano_049.png)
+
+---
 
 ### GEA/ArrayExpress/GEO
 - 遺伝子発現のデータを格納するためのデータベース
