@@ -65,6 +65,13 @@
 
 ![figs/AJACS72_02_kawano_003.jpg](figs/AJACS72_02_kawano_003.jpg)
 
+#### NGS を用いたアプリケーション
+- Sequencing Methods Poster (Illumina)
+	- https://emea.illumina.com/techniques/sequencing/ngs-library-prep/library-prep-methods.html
+		- DNA ([PDF](https://emea.illumina.com/content/dam/illumina-marketing/documents/applications/ngs-library-prep/for-all-you-seq-dna.pdf))
+		- RNA ([PDF](https://emea.illumina.com/content/dam/illumina-marketing/documents/applications/ngs-library-prep/for-all-you-seq-rna.pdf))
+		- Single Cell ([PDF](https://emea.illumina.com/content/dam/illumina-marketing/documents/applications/ngs-library-prep/for-all-you-seq-single-cell.pdf))
+
 ----
 
 ## <a name="seqdb">塩基配列データベース</a>
@@ -218,6 +225,12 @@
 	- ライフサイエンス QA
 		- URL: http://qa.lifesciencedb.jp/
 		- バイオ分野の質問サイトです
+
+#### 【参考】JGA-NGS データセット作成時の解析プログラム一覧
+- TogoVar（後述）のデータ解析に使っているプログラム群です
+- これ以外にも目的に応じてたくさんのプログラムが、多くの場合無償で提供されています
+
+![figs/AJACS72_02_kawano_050.png](figs/AJACS72_02_kawano_050.png)
 
 ----
 
