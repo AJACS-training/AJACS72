@@ -56,7 +56,12 @@
  	- お探しのDB・ツールが統合TV未掲載の場合には、[統合TV番組リクエストフォーム](https://togotv.dbcls.jp/ja/contact.html)へどうぞ!
 
 ----
+## 講演会のご案内
+- [希少疾患インフォマティクス：情報保護・情報共有・社会実装](https://misshie.github.io/rdinfo2019/)
+	- 日時：2019年2月16日（土） 17日（日）
+	- 会場：JST東京本部別館2階会議室A-1・A-2（JR/地下鉄 市ヶ谷駅より徒歩３分）
 
+---
 ## <a name="seq">DNA シーケンス技術</a>
 - サンガー法 v.s. 次世代シーケンス（NGS）
 	- https://www.nature.com/articles/nbt1486/figures/1
